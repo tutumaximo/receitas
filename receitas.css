@@ -1,0 +1,44 @@
+#area-receitas {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    padding: 20px;
+    position: relative;
+    right: -300px;
+    ;
+}
+
+.receita {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    padding: 10px;
+    border: 50px solid #9c0c0c;
+    border-radius: 500px;
+    box-shadow: 0 0 5px rgba(214, 0, 0, 0.1);
+    background-color: rgb(254, 206, 0);
+    ;
+
+}
+
+.receita img {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.receita h2 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.receita ul {
+    list-style-type: style auto;;
+    padding: 50;
+}
+
+.receita ul li {
+    margin-bottom: 50px;
+}
+
+.receita p {
+    margin-top: 10px;
+}

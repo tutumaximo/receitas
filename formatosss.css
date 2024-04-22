@@ -1,0 +1,21 @@
+formatosss.css
+body {
+    overflow-y: auto; /* Barra de rolagem automática na área principal */
+    margin: 0;
+    padding: 0;
+    height: calc(100vh - 60px); /* Altura do corpo */
+}
+
+header {
+    height: 60px; /* Altura do cabeçalho */
+    background-color: rgb(254, 206, 0);
+    color: #cc2525;
+}
+
+main {
+    height: calc(100vh - 85px); /* Altura do conteúdo principal */
+}
+
+footer {
+    height: 25px; /* Altura do rodapé */
+}

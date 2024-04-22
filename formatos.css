@@ -1,0 +1,68 @@
+
+/* a) Definir uma classe para a logotipo, com largura e altura de 50 pixels */
+.logotipo {
+    width: 50px;
+    height: 100px;
+    object-position: center;
+    margin: 30% CENTER; /* Centraliza horizontalmente */
+    display: block; /* Transforma em bloco para usar margens automáticas */
+}
+
+/* b) Definir a formatação das áreas semânticas */
+header, main, footer {
+    padding: 0px;
+    background-color: rgb(254, 206, 0);
+    border: 3px solid #d13535;
+    margin-bottom: 030%px;
+    position: relative;
+    left: auto;
+    top: center;
+
+}
+.img{
+    position: absolute;
+    left: 100px;
+    top: auto;
+}
+
+/* c) Definir características tipográficas globais */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    line-height: 50px;
+    position: relative;
+    top: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* d) Explorar as possibilidades da visualização no modo flex */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+/* e) Posicionar adequadamente as áreas semânticas */
+header {
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+}
